@@ -10,13 +10,11 @@ body {
     transition: background-color 0.3s, color 0.3s; /* Transition fluide entre les modes */
 }
 
-
 /* Mode sombre */
 body.dark-mode {
     background-color: #1e1e2f; /* Fond bleu nuit */
     color: #e0e0e0; /* Texte gris clair */
 }
-
 
 /* Style du conteneur global */
 .container {
@@ -28,12 +26,10 @@ body.dark-mode {
     background-color: #f9f9f9; /* Fond gris clair */
 }
 
-
 body.dark-mode .container {
     border-color: #555; /* Cadre gris foncé pour le mode sombre */
     background-color: #2b2b2b; /* Fond sombre */
 }
-
 
 /* Style du titre */
 h1 {
@@ -48,13 +44,11 @@ h1 {
     display: inline-block; /* Limite la largeur du cadre au contenu */
 }
 
-
 body.dark-mode h1 {
     color: #ffcc00; /* Jaune vif pour le mode sombre */
     border-color: #ffcc00; /* Cadre jaune */
     background-color: #333333; /* Fond sombre */
 }
-
 
 /* Style des paragraphes */
 p {
@@ -67,13 +61,11 @@ p {
     background-color: #f9f9f9; /* Fond gris très clair */
 }
 
-
 body.dark-mode p {
     color: #d3d3d3;
     border-color: #666; /* Cadre gris foncé */
     background-color: #2b2b2b; /* Fond sombre */
 }
-
 
 /* Boutons */
 button {
@@ -88,13 +80,11 @@ button {
     transition: background-color 0.3s, transform 0.2s, border-color 0.3s;
 }
 
-
 button:hover {
     background-color: #ff7f50;
     border-color: #ffa500; /* Change la couleur du cadre au survol */
     transform: scale(1.05);
 }
-
 
 body.dark-mode button {
     background-color: #444;
@@ -102,12 +92,10 @@ body.dark-mode button {
     border-color: #555; /* Cadre autour des boutons en mode sombre */
 }
 
-
 body.dark-mode button:hover {
     background-color: #555;
     border-color: #666;
 }
-
 
 /* Chronomètre */
 #chronometer {
@@ -119,12 +107,10 @@ body.dark-mode button:hover {
     background-color: #f0fff0; /* Fond vert clair */
 }
 
-
 body.dark-mode #chronometer {
     border-color: #32cd32; /* Cadre vert clair */
     background-color: #2b3b2b; /* Fond vert sombre */
 }
-
 
 #time {
     font-size: 2em;
@@ -132,7 +118,6 @@ body.dark-mode #chronometer {
     margin: 10px 0;
     color: #006400;
 }
-
 
 body.dark-mode #time {
     color: #32cd32;
